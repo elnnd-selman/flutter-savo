@@ -1,0 +1,148 @@
+name: main
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_swiper: ^1.1.6
+  carousel_pro: ^1.0.0
+  expandable_text: ^2.2.0
+  syncfusion_flutter_gauges: ^19.2.46
+  fa_stepper: ^0.0.2
+  change_app_package_name: ^1.0.0
+  provider: ^5.0.0
+  cloud_firestore: ^2.2.2
+  uuid: ^3.0.4
+  firebase_core: ^1.3.0
+  image_picker: ^0.8.0+3
+  firebase_storage: ^8.1.3
+  permission_handler: ^8.1.1
+  firebase_auth: ^1.4.1
+  searchable_dropdown: ^1.1.3
+  path: ^1.8.0
+  flutter_svg: ^0.22.0
+  achievement_view: ^0.2.1
+  fluttertoast: ^8.0.7
+  intl: ^0.17.0
+  animated_button: ^0.2.0
+  smooth_star_rating: ^1.1.1
+  shimmer: ^2.0.0
+  image_cropper: ^1.4.1
+  flutter_tags: "^0.4.9+1"
+  like_button: ^2.0.2
+  google_maps_flutter: ^2.0.6
+  location: ^4.3.0
+  flutter_cache_manager: ^3.0.0
+  syncfusion_flutter_sliders: ^19.2.51
+  flutter_switch: ^0.3.2
+  shared_preferences: ^2.0.6
+  easy_localization: ^3.0.0
+  flutter_native_splash: ^1.2.1
+  firebase_messaging: ^10.0.4
+  flutter_local_notifications: ^8.1.1
+  firebase_admin: ^0.2.0-dev.1
+  connectivity: ^3.0.6
+
+  
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/Savo.png
+  andriod: true
+  ios: true
+  #
+  #
+  #
+  #
+  #
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.1"
+
+flutter_icons:
+
+  android: true
+  ios: true
+  image_path: "assets/images/savoIcon.png"    
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/3.gif
+    - assets/images/2.gif
+    - assets/images/svgloadingmyacc.svg
+    - assets/images/logologin.png
+    - assets/images/marker.png
+    - assets/images/moon.png
+    - assets/images/sun.png
+    - assets/images/Savo.png
+    - assets/images/taginfo.jpg
+    - assets/images/taginfoprofile.jpg
+    - assets/translations/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: rudaw
+      fonts:
+        - asset: fonts/rudaw.ttf
+    - family: savo
+      fonts:
+        - asset: fonts/savo.ttf
+ 
+    - family: savo1
+      fonts:
+        - asset: fonts/savo1.ttf
+    
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Light.ttf
+          weight: 700
+    - family: Uchen
+      fonts:
+        - asset: fonts/uchen.ttf
+          weight: 700
+    # - family: Ar
+    #   fonts:
+    #     - asset: fonts/ar.ttf
+    - family: myIcon
+      fonts:
+        - asset: assets/icon/question_mark.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
